@@ -59,6 +59,7 @@ function draw() {
         else if(objects.label == "person")
         {
           document.getElementById("status").innerHTML = "Status : Baby Found!";
+          song.stop();
         }
         if(objects.length < 0)
         {
